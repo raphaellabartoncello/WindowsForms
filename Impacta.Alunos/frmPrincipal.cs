@@ -145,14 +145,13 @@ namespace Impacta.Alunos
 
             lab10.Show();
         }
-
-        private void laboratório11ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void escalaçãoDeJogadoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmLaboratorio11 lab11 = new frmLaboratorio11();
+            frmExtraJogadores jogadores = new frmExtraJogadores();
 
             this.Hide();
 
-            lab11.Show();
+            jogadores.Show();
         }
     }
 }

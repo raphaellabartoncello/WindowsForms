@@ -16,7 +16,7 @@ namespace Impacta.Alunos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLaboratorio07());
+            Application.Run(new frmLogin());
         }
     }
 }

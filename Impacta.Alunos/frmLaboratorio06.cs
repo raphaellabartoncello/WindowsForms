@@ -16,23 +16,6 @@ namespace Impacta.Alunos
         {
             InitializeComponent();
         }
-        private void tsbInicio_Click(object sender, EventArgs e)
-        {
-            frmPrincipal principal = new frmPrincipal();
-
-            this.Hide();
-
-            principal.Show();
-        }
-
-        private void tsbSair_Click(object sender, EventArgs e)
-        {
-            frmLogin login = new frmLogin();
-
-            this.Hide();
-
-            login.Show();
-        }
 
         private void validarButton_Click(object sender, EventArgs e)
         {
@@ -142,6 +125,24 @@ namespace Impacta.Alunos
             resultadoLabel.Text = "CPF válido";
             resultadoLabel.ForeColor = Color.Green;
 
+        }
+
+        private void tsbInicio_Click_1(object sender, EventArgs e)
+        {
+            frmPrincipal principal = new frmPrincipal();
+
+            this.Hide();
+
+            principal.Show();
+        }
+
+        private void tsbSair_Click_1(object sender, EventArgs e)
+        {
+            frmLogin login = new frmLogin();
+
+            this.Hide();
+
+            login.Show();
         }
     }
 }

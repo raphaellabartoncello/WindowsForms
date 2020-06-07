@@ -130,7 +130,7 @@ namespace Impacta.Alunos
 
         private void frmLaboratorio07_KeyPress(object sender, KeyPressEventArgs e)
         {
-            //Passar a propriedade KeyPreview do formulário para TRUE
+
             if (e.KeyChar == 27)
             {
                 this.LimparTela();

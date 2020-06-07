@@ -41,6 +41,10 @@
             this.laboratório04ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laboratório05ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laboratório06ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.laboratório07ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.laboratório08ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.laboratório09ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.laboratório10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.outrosExercíciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbSair = new System.Windows.Forms.ToolStripButton();
@@ -52,11 +56,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblDataHora = new System.Windows.Forms.Label();
-            this.laboratório07ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laboratório08ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laboratório09ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laboratório10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laboratório11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.escalaçãoDeJogadoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -113,7 +113,6 @@
             this.laboratório08ToolStripMenuItem,
             this.laboratório09ToolStripMenuItem,
             this.laboratório10ToolStripMenuItem,
-            this.laboratório11ToolStripMenuItem,
             this.outrosExercíciosToolStripMenuItem});
             this.tscExercicios.Name = "tscExercicios";
             this.tscExercicios.Size = new System.Drawing.Size(13, 22);
@@ -157,11 +156,41 @@
             // 
             this.laboratório06ToolStripMenuItem1.Name = "laboratório06ToolStripMenuItem1";
             this.laboratório06ToolStripMenuItem1.Size = new System.Drawing.Size(420, 22);
-            this.laboratório06ToolStripMenuItem1.Text = "Laboratório 06";
+            this.laboratório06ToolStripMenuItem1.Text = "Laboratório 06 - Validação dos dígitos do CPF";
             this.laboratório06ToolStripMenuItem1.Click += new System.EventHandler(this.laboratório06ToolStripMenuItem1_Click);
+            // 
+            // laboratório07ToolStripMenuItem
+            // 
+            this.laboratório07ToolStripMenuItem.Name = "laboratório07ToolStripMenuItem";
+            this.laboratório07ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.laboratório07ToolStripMenuItem.Text = "Laboratório 07 - Cadastro de veículos";
+            this.laboratório07ToolStripMenuItem.Click += new System.EventHandler(this.laboratório07ToolStripMenuItem_Click);
+            // 
+            // laboratório08ToolStripMenuItem
+            // 
+            this.laboratório08ToolStripMenuItem.Name = "laboratório08ToolStripMenuItem";
+            this.laboratório08ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.laboratório08ToolStripMenuItem.Text = "Laboratório 08 - Leitor de arquivos .CSV";
+            this.laboratório08ToolStripMenuItem.Click += new System.EventHandler(this.laboratório08ToolStripMenuItem_Click);
+            // 
+            // laboratório09ToolStripMenuItem
+            // 
+            this.laboratório09ToolStripMenuItem.Name = "laboratório09ToolStripMenuItem";
+            this.laboratório09ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.laboratório09ToolStripMenuItem.Text = "Laboratório 09 - Trocar nome de um arquivo";
+            this.laboratório09ToolStripMenuItem.Click += new System.EventHandler(this.laboratório09ToolStripMenuItem_Click);
+            // 
+            // laboratório10ToolStripMenuItem
+            // 
+            this.laboratório10ToolStripMenuItem.Name = "laboratório10ToolStripMenuItem";
+            this.laboratório10ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.laboratório10ToolStripMenuItem.Text = "Laboratório 10 - Cálculo de combustível: Rendimento e consumo";
+            this.laboratório10ToolStripMenuItem.Click += new System.EventHandler(this.laboratório10ToolStripMenuItem_Click);
             // 
             // outrosExercíciosToolStripMenuItem
             // 
+            this.outrosExercíciosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.escalaçãoDeJogadoresToolStripMenuItem});
             this.outrosExercíciosToolStripMenuItem.Name = "outrosExercíciosToolStripMenuItem";
             this.outrosExercíciosToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
             this.outrosExercíciosToolStripMenuItem.Text = "Outros exercícios";
@@ -246,40 +275,12 @@
             this.lblDataHora.Text = "label1";
             this.lblDataHora.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // laboratório07ToolStripMenuItem
+            // escalaçãoDeJogadoresToolStripMenuItem
             // 
-            this.laboratório07ToolStripMenuItem.Name = "laboratório07ToolStripMenuItem";
-            this.laboratório07ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
-            this.laboratório07ToolStripMenuItem.Text = "Laboratório 07";
-            this.laboratório07ToolStripMenuItem.Click += new System.EventHandler(this.laboratório07ToolStripMenuItem_Click);
-            // 
-            // laboratório08ToolStripMenuItem
-            // 
-            this.laboratório08ToolStripMenuItem.Name = "laboratório08ToolStripMenuItem";
-            this.laboratório08ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
-            this.laboratório08ToolStripMenuItem.Text = "Laboratório 08";
-            this.laboratório08ToolStripMenuItem.Click += new System.EventHandler(this.laboratório08ToolStripMenuItem_Click);
-            // 
-            // laboratório09ToolStripMenuItem
-            // 
-            this.laboratório09ToolStripMenuItem.Name = "laboratório09ToolStripMenuItem";
-            this.laboratório09ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
-            this.laboratório09ToolStripMenuItem.Text = "Laboratório 09";
-            this.laboratório09ToolStripMenuItem.Click += new System.EventHandler(this.laboratório09ToolStripMenuItem_Click);
-            // 
-            // laboratório10ToolStripMenuItem
-            // 
-            this.laboratório10ToolStripMenuItem.Name = "laboratório10ToolStripMenuItem";
-            this.laboratório10ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
-            this.laboratório10ToolStripMenuItem.Text = "Laboratório 10";
-            this.laboratório10ToolStripMenuItem.Click += new System.EventHandler(this.laboratório10ToolStripMenuItem_Click);
-            // 
-            // laboratório11ToolStripMenuItem
-            // 
-            this.laboratório11ToolStripMenuItem.Name = "laboratório11ToolStripMenuItem";
-            this.laboratório11ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
-            this.laboratório11ToolStripMenuItem.Text = "Laboratório 11";
-            this.laboratório11ToolStripMenuItem.Click += new System.EventHandler(this.laboratório11ToolStripMenuItem_Click);
+            this.escalaçãoDeJogadoresToolStripMenuItem.Name = "escalaçãoDeJogadoresToolStripMenuItem";
+            this.escalaçãoDeJogadoresToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.escalaçãoDeJogadoresToolStripMenuItem.Text = "Escalação de jogadores";
+            this.escalaçãoDeJogadoresToolStripMenuItem.Click += new System.EventHandler(this.escalaçãoDeJogadoresToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -333,6 +334,6 @@
         private System.Windows.Forms.ToolStripMenuItem laboratório08ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem laboratório09ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem laboratório10ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laboratório11ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem escalaçãoDeJogadoresToolStripMenuItem;
     }
 }

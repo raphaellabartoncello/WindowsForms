@@ -2,7 +2,7 @@
 
 <h2>Exercícios</h2>
 
-Laboratórios e exercícios de classe realizados durante treinamento na Impacta Tecnologia.
+Laboratórios e exercícios de aula realizados durante treinamento na Impacta Tecnologia.
 
 <h2>Utilizados</h2>
 <ul>
@@ -32,12 +32,12 @@ Laboratórios e exercícios de classe realizados durante treinamento na Impacta Te
 
 <h2>Layout</h2>
 
-![alt text](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-inicio.PNG)
+![Login](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-inicio.PNG)
 
-![alt text](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-pg.PNG)
+![Página Inicial](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-pg.PNG)
 
-![alt text](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-menu.PNG)
+![Menu](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-menu.PNG)
 
-![alt text](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-07.PNG)
+![Exemplo de laboratório](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-07.PNG)
 
-![alt text](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-extra.PNG)
+![Exemplo de exercício de aula](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-extra.PNG)

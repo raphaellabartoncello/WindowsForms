@@ -31,13 +31,13 @@ Laboratórios e exercícios de aula realizados durante treinamento na Impacta Tecn
 - [x] Cadastro de alunos
 
 <h2>Layout</h2>
-
+- [x] Login
 ![Login](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-inicio.PNG)
-
+- [x] Página Inicial
 ![Página Inicial](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-pg.PNG)
-
+- [x] Menu
 ![Menu](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-menu.PNG)
-
+- [x] Exemplo de laboratório
 ![Exemplo de laboratório](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-07.PNG)
-
+- [x] Exemplo de exercício de aula
 ![Exemplo de exercício de aula](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-extra.PNG)

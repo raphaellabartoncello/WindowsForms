@@ -8,11 +8,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5FAF7B50-D5F0-4A74-ABFA-DC58640603FA}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
-		..\..\..\Pictures\wf-07.PNG = ..\..\..\Pictures\wf-07.PNG
-		..\..\..\Pictures\wf-extra.PNG = ..\..\..\Pictures\wf-extra.PNG
-		..\..\..\Pictures\wf-inicio.PNG = ..\..\..\Pictures\wf-inicio.PNG
-		..\..\..\Pictures\wf-menu.png = ..\..\..\Pictures\wf-menu.png
-		..\..\..\Pictures\wf-pg.PNG = ..\..\..\Pictures\wf-pg.PNG
 	EndProjectSection
 EndProject
 Global

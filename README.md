@@ -32,9 +32,7 @@ Laboratórios e exercícios de classe realizados durante treinamento na Impacta Te
 
 <h2>Layout</h2>
 
-<img login=@/wf-inicio>
-	
-<img src="/src/images/print-2.png">
+<img src="/Impacta.Alunos/Resources/wf-inicio.png">
 
 <img src="/src/images/print-3.png">
 

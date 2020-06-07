@@ -91,5 +91,68 @@ namespace Impacta.Alunos
 
             lab04.Show();
         }
+
+        private void laboratório05ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLaboratorio05 lab05 = new frmLaboratorio05();
+
+            this.Hide();
+
+            lab05.Show();
+        }
+
+        private void laboratório06ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmLaboratorio06 lab06 = new frmLaboratorio06();
+
+            this.Hide();
+
+            lab06.Show();
+        }
+
+        private void laboratório07ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLaboratorio07 lab07 = new frmLaboratorio07();
+
+            this.Hide();
+
+            lab07.Show();
+        }
+
+        private void laboratório08ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLaboratorio08 lab08 = new frmLaboratorio08();
+
+            this.Hide();
+
+            lab08.Show();
+        }
+
+        private void laboratório09ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLaboratorio09 lab09 = new frmLaboratorio09();
+
+            this.Hide();
+
+            lab09.Show();
+        }
+
+        private void laboratório10ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLaboratorio10 lab10 = new frmLaboratorio10();
+
+            this.Hide();
+
+            lab10.Show();
+        }
+
+        private void laboratório11ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLaboratorio11 lab11 = new frmLaboratorio11();
+
+            this.Hide();
+
+            lab11.Show();
+        }
     }
 }

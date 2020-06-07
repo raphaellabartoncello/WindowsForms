@@ -40,7 +40,7 @@
             this.laboratório03ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laboratório04ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laboratório05ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laboratório05ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.laboratório06ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.outrosExercíciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbSair = new System.Windows.Forms.ToolStripButton();
@@ -52,6 +52,11 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblDataHora = new System.Windows.Forms.Label();
+            this.laboratório07ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.laboratório08ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.laboratório09ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.laboratório10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.laboratório11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -103,7 +108,12 @@
             this.laboratório03ToolStripMenuItem,
             this.laboratório04ToolStripMenuItem,
             this.laboratório05ToolStripMenuItem,
-            this.laboratório05ToolStripMenuItem1,
+            this.laboratório06ToolStripMenuItem1,
+            this.laboratório07ToolStripMenuItem,
+            this.laboratório08ToolStripMenuItem,
+            this.laboratório09ToolStripMenuItem,
+            this.laboratório10ToolStripMenuItem,
+            this.laboratório11ToolStripMenuItem,
             this.outrosExercíciosToolStripMenuItem});
             this.tscExercicios.Name = "tscExercicios";
             this.tscExercicios.Size = new System.Drawing.Size(13, 22);
@@ -111,47 +121,49 @@
             // laboratório01ToolStripMenuItem
             // 
             this.laboratório01ToolStripMenuItem.Name = "laboratório01ToolStripMenuItem";
-            this.laboratório01ToolStripMenuItem.Size = new System.Drawing.Size(377, 22);
+            this.laboratório01ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
             this.laboratório01ToolStripMenuItem.Text = "Laboratório 01 - Calculadora do quadrado de um número";
             this.laboratório01ToolStripMenuItem.Click += new System.EventHandler(this.laboratório01ToolStripMenuItem_Click_1);
             // 
             // laboratório02ToolStripMenuItem
             // 
             this.laboratório02ToolStripMenuItem.Name = "laboratório02ToolStripMenuItem";
-            this.laboratório02ToolStripMenuItem.Size = new System.Drawing.Size(377, 22);
-            this.laboratório02ToolStripMenuItem.Text = "Laboratório 02";
+            this.laboratório02ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.laboratório02ToolStripMenuItem.Text = "Laboratório 02 - Calculadora de troco com separação de moedas";
             this.laboratório02ToolStripMenuItem.Click += new System.EventHandler(this.laboratório02ToolStripMenuItem_Click);
             // 
             // laboratório03ToolStripMenuItem
             // 
             this.laboratório03ToolStripMenuItem.Name = "laboratório03ToolStripMenuItem";
-            this.laboratório03ToolStripMenuItem.Size = new System.Drawing.Size(377, 22);
-            this.laboratório03ToolStripMenuItem.Text = "Laboratório 03";
+            this.laboratório03ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.laboratório03ToolStripMenuItem.Text = "Laboratório 03 - Verificar qual o maior número entre três números";
             this.laboratório03ToolStripMenuItem.Click += new System.EventHandler(this.laboratório03ToolStripMenuItem_Click);
             // 
             // laboratório04ToolStripMenuItem
             // 
             this.laboratório04ToolStripMenuItem.Name = "laboratório04ToolStripMenuItem";
-            this.laboratório04ToolStripMenuItem.Size = new System.Drawing.Size(377, 22);
-            this.laboratório04ToolStripMenuItem.Text = "Laboratório 04";
+            this.laboratório04ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.laboratório04ToolStripMenuItem.Text = "Laboratório 04 - Calculadora de fretes";
             this.laboratório04ToolStripMenuItem.Click += new System.EventHandler(this.laboratório04ToolStripMenuItem_Click);
             // 
             // laboratório05ToolStripMenuItem
             // 
             this.laboratório05ToolStripMenuItem.Name = "laboratório05ToolStripMenuItem";
-            this.laboratório05ToolStripMenuItem.Size = new System.Drawing.Size(377, 22);
-            this.laboratório05ToolStripMenuItem.Text = "Laboratório 05";
+            this.laboratório05ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.laboratório05ToolStripMenuItem.Text = "Laboratório 05 - Tabuada";
+            this.laboratório05ToolStripMenuItem.Click += new System.EventHandler(this.laboratório05ToolStripMenuItem_Click);
             // 
-            // laboratório05ToolStripMenuItem1
+            // laboratório06ToolStripMenuItem1
             // 
-            this.laboratório05ToolStripMenuItem1.Name = "laboratório05ToolStripMenuItem1";
-            this.laboratório05ToolStripMenuItem1.Size = new System.Drawing.Size(377, 22);
-            this.laboratório05ToolStripMenuItem1.Text = "Laboratório 05";
+            this.laboratório06ToolStripMenuItem1.Name = "laboratório06ToolStripMenuItem1";
+            this.laboratório06ToolStripMenuItem1.Size = new System.Drawing.Size(420, 22);
+            this.laboratório06ToolStripMenuItem1.Text = "Laboratório 06";
+            this.laboratório06ToolStripMenuItem1.Click += new System.EventHandler(this.laboratório06ToolStripMenuItem1_Click);
             // 
             // outrosExercíciosToolStripMenuItem
             // 
             this.outrosExercíciosToolStripMenuItem.Name = "outrosExercíciosToolStripMenuItem";
-            this.outrosExercíciosToolStripMenuItem.Size = new System.Drawing.Size(377, 22);
+            this.outrosExercíciosToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
             this.outrosExercíciosToolStripMenuItem.Text = "Outros exercícios";
             // 
             // toolStripSeparator1
@@ -234,6 +246,41 @@
             this.lblDataHora.Text = "label1";
             this.lblDataHora.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // laboratório07ToolStripMenuItem
+            // 
+            this.laboratório07ToolStripMenuItem.Name = "laboratório07ToolStripMenuItem";
+            this.laboratório07ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.laboratório07ToolStripMenuItem.Text = "Laboratório 07";
+            this.laboratório07ToolStripMenuItem.Click += new System.EventHandler(this.laboratório07ToolStripMenuItem_Click);
+            // 
+            // laboratório08ToolStripMenuItem
+            // 
+            this.laboratório08ToolStripMenuItem.Name = "laboratório08ToolStripMenuItem";
+            this.laboratório08ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.laboratório08ToolStripMenuItem.Text = "Laboratório 08";
+            this.laboratório08ToolStripMenuItem.Click += new System.EventHandler(this.laboratório08ToolStripMenuItem_Click);
+            // 
+            // laboratório09ToolStripMenuItem
+            // 
+            this.laboratório09ToolStripMenuItem.Name = "laboratório09ToolStripMenuItem";
+            this.laboratório09ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.laboratório09ToolStripMenuItem.Text = "Laboratório 09";
+            this.laboratório09ToolStripMenuItem.Click += new System.EventHandler(this.laboratório09ToolStripMenuItem_Click);
+            // 
+            // laboratório10ToolStripMenuItem
+            // 
+            this.laboratório10ToolStripMenuItem.Name = "laboratório10ToolStripMenuItem";
+            this.laboratório10ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.laboratório10ToolStripMenuItem.Text = "Laboratório 10";
+            this.laboratório10ToolStripMenuItem.Click += new System.EventHandler(this.laboratório10ToolStripMenuItem_Click);
+            // 
+            // laboratório11ToolStripMenuItem
+            // 
+            this.laboratório11ToolStripMenuItem.Name = "laboratório11ToolStripMenuItem";
+            this.laboratório11ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.laboratório11ToolStripMenuItem.Text = "Laboratório 11";
+            this.laboratório11ToolStripMenuItem.Click += new System.EventHandler(this.laboratório11ToolStripMenuItem_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -280,7 +327,12 @@
         private System.Windows.Forms.ToolStripMenuItem laboratório03ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem laboratório04ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem laboratório05ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laboratório05ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem laboratório06ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem outrosExercíciosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem laboratório07ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem laboratório08ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem laboratório09ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem laboratório10ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem laboratório11ToolStripMenuItem;
     }
 }

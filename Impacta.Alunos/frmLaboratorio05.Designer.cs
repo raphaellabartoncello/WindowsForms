@@ -68,6 +68,7 @@
             this.tsbInicio.Name = "tsbInicio";
             this.tsbInicio.Size = new System.Drawing.Size(23, 22);
             this.tsbInicio.Text = "Página Inicial";
+            this.tsbInicio.Click += new System.EventHandler(this.tsbInicio_Click);
             // 
             // toolStripSeparator2
             // 
@@ -82,6 +83,7 @@
             this.tsbSair.Name = "tsbSair";
             this.tsbSair.Size = new System.Drawing.Size(23, 22);
             this.tsbSair.Text = "Sair";
+            this.tsbSair.Click += new System.EventHandler(this.tsbSair_Click);
             // 
             // frmLaboratorio05
             // 

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -39,28 +40,31 @@ namespace Impacta.Alunos
         {
             Stack<int> pilha = new Stack<int>();
 
-            //Preenchendo a pilha
-            foreach (var item in new int[4] { 9, 3, 7, 2})
+            // Preenchendo a pilha
+            foreach (var item in new int[4] { 9, 3, 7, 2 })
             {
-                //Para colocar itens dentro da pilha usar o método PUSH
+                // Para inserir itens na pilha usar o método PUSH
                 pilha.Push(item);
 
-                dadosListBox.Items.Add(string.Format("O número {0} foi inserido na pilha.", item));
+                dadosListBox.Items.Add(string.Format("O número {0} foi colocado na pilha.", item));
             }
 
-            //Interar pela pilha
+            // Interar pela pilha 
             foreach (var item in pilha)
             {
+                dadosListBox.Items.Add(new string('=', 20));
                 dadosListBox.Items.Add(item);
             }
 
-            //Para esvaziar a pilha usar o método POP
+            // Para retirar itens da pilha usar o método POP
             while (pilha.Count > 0)
             {
                 int numeroRetiradoDaPilha = (int)pilha.Pop();
 
-                dadosListBox.Items.Add(string.Format("O número {0} foi retirado da pilha.", numeroRetiradoDaPilha));
+                dadosListBox.Items.Add(string.Format("O número {0} foi Retirado da pilha.", numeroRetiradoDaPilha));
             }
         }
     }
 }
+
+

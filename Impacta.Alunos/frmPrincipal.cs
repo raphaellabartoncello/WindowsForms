@@ -162,5 +162,23 @@ namespace Impacta.Alunos
 
             stack.Show();
         }
+
+        private void coleçãoQueueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmQueue queue = new frmQueue();
+
+            this.Hide();
+
+            queue.Show();
+        }
+
+        private void cadastroDeAlunosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroAluno aluno = new frmCadastroAluno();
+
+            this.Hide();
+
+            aluno.Show();
+        }
     }
 }

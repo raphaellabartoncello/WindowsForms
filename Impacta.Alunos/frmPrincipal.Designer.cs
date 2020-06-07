@@ -46,6 +46,7 @@
             this.laboratório09ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laboratório10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.outrosExercíciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.escalaçãoDeJogadoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbSair = new System.Windows.Forms.ToolStripButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
@@ -56,7 +57,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblDataHora = new System.Windows.Forms.Label();
-            this.escalaçãoDeJogadoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.coleçãoStackPilhaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -190,10 +191,18 @@
             // outrosExercíciosToolStripMenuItem
             // 
             this.outrosExercíciosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.escalaçãoDeJogadoresToolStripMenuItem});
+            this.escalaçãoDeJogadoresToolStripMenuItem,
+            this.coleçãoStackPilhaToolStripMenuItem});
             this.outrosExercíciosToolStripMenuItem.Name = "outrosExercíciosToolStripMenuItem";
             this.outrosExercíciosToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
             this.outrosExercíciosToolStripMenuItem.Text = "Outros exercícios";
+            // 
+            // escalaçãoDeJogadoresToolStripMenuItem
+            // 
+            this.escalaçãoDeJogadoresToolStripMenuItem.Name = "escalaçãoDeJogadoresToolStripMenuItem";
+            this.escalaçãoDeJogadoresToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.escalaçãoDeJogadoresToolStripMenuItem.Text = "Escalação de jogadores";
+            this.escalaçãoDeJogadoresToolStripMenuItem.Click += new System.EventHandler(this.escalaçãoDeJogadoresToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -275,12 +284,12 @@
             this.lblDataHora.Text = "label1";
             this.lblDataHora.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // escalaçãoDeJogadoresToolStripMenuItem
+            // coleçãoStackPilhaToolStripMenuItem
             // 
-            this.escalaçãoDeJogadoresToolStripMenuItem.Name = "escalaçãoDeJogadoresToolStripMenuItem";
-            this.escalaçãoDeJogadoresToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
-            this.escalaçãoDeJogadoresToolStripMenuItem.Text = "Escalação de jogadores";
-            this.escalaçãoDeJogadoresToolStripMenuItem.Click += new System.EventHandler(this.escalaçãoDeJogadoresToolStripMenuItem_Click);
+            this.coleçãoStackPilhaToolStripMenuItem.Name = "coleçãoStackPilhaToolStripMenuItem";
+            this.coleçãoStackPilhaToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.coleçãoStackPilhaToolStripMenuItem.Text = "Coleção Stack - Pilha";
+            this.coleçãoStackPilhaToolStripMenuItem.Click += new System.EventHandler(this.coleçãoStackPilhaToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -335,5 +344,6 @@
         private System.Windows.Forms.ToolStripMenuItem laboratório09ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem laboratório10ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem escalaçãoDeJogadoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem coleçãoStackPilhaToolStripMenuItem;
     }
 }

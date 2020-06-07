@@ -153,5 +153,14 @@ namespace Impacta.Alunos
 
             jogadores.Show();
         }
+
+        private void coleçãoStackPilhaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmExtraStack stack = new frmExtraStack();
+
+            this.Hide();
+
+            stack.Show();
+        }
     }
 }

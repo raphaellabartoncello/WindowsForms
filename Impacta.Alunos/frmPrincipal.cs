@@ -180,5 +180,14 @@ namespace Impacta.Alunos
 
             aluno.Show();
         }
+
+        private void coleçãoHashtableToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHashtable hashtable = new frmHashtable();
+
+            this.Hide();
+
+            hashtable.Show();
+        }
     }
 }

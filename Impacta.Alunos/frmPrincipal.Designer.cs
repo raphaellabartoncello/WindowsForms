@@ -49,6 +49,7 @@
             this.escalaçãoDeJogadoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.coleçãoStackPilhaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.coleçãoQueueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.coleçãoHashtableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroDeAlunosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbSair = new System.Windows.Forms.ToolStripButton();
@@ -196,6 +197,7 @@
             this.escalaçãoDeJogadoresToolStripMenuItem,
             this.coleçãoStackPilhaToolStripMenuItem,
             this.coleçãoQueueToolStripMenuItem,
+            this.coleçãoHashtableToolStripMenuItem,
             this.cadastroDeAlunosToolStripMenuItem});
             this.outrosExercíciosToolStripMenuItem.Name = "outrosExercíciosToolStripMenuItem";
             this.outrosExercíciosToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
@@ -221,6 +223,13 @@
             this.coleçãoQueueToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.coleçãoQueueToolStripMenuItem.Text = "Coleção Queue FIFO";
             this.coleçãoQueueToolStripMenuItem.Click += new System.EventHandler(this.coleçãoQueueToolStripMenuItem_Click);
+            // 
+            // coleçãoHashtableToolStripMenuItem
+            // 
+            this.coleçãoHashtableToolStripMenuItem.Name = "coleçãoHashtableToolStripMenuItem";
+            this.coleçãoHashtableToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.coleçãoHashtableToolStripMenuItem.Text = "Coleção Hashtable";
+            this.coleçãoHashtableToolStripMenuItem.Click += new System.EventHandler(this.coleçãoHashtableToolStripMenuItem_Click);
             // 
             // cadastroDeAlunosToolStripMenuItem
             // 
@@ -365,5 +374,6 @@
         private System.Windows.Forms.ToolStripMenuItem coleçãoStackPilhaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem coleçãoQueueToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastroDeAlunosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem coleçãoHashtableToolStripMenuItem;
     }
 }

@@ -33,3 +33,11 @@ Laboratórios e exercícios de classe realizados durante treinamento na Impacta Te
 <h2>Layout</h2>
 
 ![alt text](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-inicio.PNG)
+
+![alt text](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-pg.PNG)
+
+![alt text](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-menu.PNG)
+
+![alt text](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-07.PNG)
+
+![alt text](https://github.com/raphaellabartoncello/WindowsForms/blob/master/Impacta.Alunos/Resources/wf-extra.PNG)

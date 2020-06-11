@@ -8,7 +8,7 @@ using Impacta.Alunos.MODEL;
 
 namespace Impacta.Alunos.DLL
 {
-    class AlunoDLL
+    public class AlunoDLL
     {
         //Importar e fazer referência a classe que cria a conexão com o banco de dados
         ConexaoDB minhaConexaoDB = null;

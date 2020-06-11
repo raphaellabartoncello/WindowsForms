@@ -41,7 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlunoBLL.cs" />
+    <Compile Include="MetodoExtensao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Impacta.Alunos.DLL\Impacta.Alunos.DLL.csproj">
+      <Project>{ba9e955c-2022-48f1-9919-8a9a6959af72}</Project>
+      <Name>Impacta.Alunos.DLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Impacta.Alunos.MODEL\Impacta.Alunos.MODEL.csproj">
+      <Project>{F84D81E1-D5FB-4049-9CC7-D3DFA13AEFC3}</Project>
+      <Name>Impacta.Alunos.MODEL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

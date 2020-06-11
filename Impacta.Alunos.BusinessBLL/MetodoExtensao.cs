@@ -13,13 +13,13 @@ namespace Impacta.Alunos.BusinessBLL
         /// </summary>
         /// <param name="txt"></param>
         /// <returns>Texto já validado</returns>
-        public static string ValidarVazio(this string txt)
+        public static bool ValidarVazio(this string txt)
         {
             if (string.IsNullOrWhiteSpace(txt))
             {
                 throw new Exception("Os campos obrigatórios devem ser preenchidos");
             }
-            return txt;
+            return true;
         }
 
 

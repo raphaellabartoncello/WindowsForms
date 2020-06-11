@@ -37,7 +37,6 @@
             this.tscExercicios = new System.Windows.Forms.ToolStripDropDownButton();
             this.laboratório01ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laboratório02ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laboratório03ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laboratório04ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laboratório05ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laboratório06ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,6 +60,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblDataHora = new System.Windows.Forms.Label();
+            this.laboratório03ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -134,13 +134,6 @@
             this.laboratório02ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
             this.laboratório02ToolStripMenuItem.Text = "Laboratório 02 - Calculadora de troco com separação de moedas";
             this.laboratório02ToolStripMenuItem.Click += new System.EventHandler(this.laboratório02ToolStripMenuItem_Click);
-            // 
-            // laboratório03ToolStripMenuItem
-            // 
-            this.laboratório03ToolStripMenuItem.Name = "laboratório03ToolStripMenuItem";
-            this.laboratório03ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
-            this.laboratório03ToolStripMenuItem.Text = "Laboratório 03 - Verificar qual o maior número entre três números";
-            this.laboratório03ToolStripMenuItem.Click += new System.EventHandler(this.laboratório03ToolStripMenuItem_Click);
             // 
             // laboratório04ToolStripMenuItem
             // 
@@ -318,6 +311,13 @@
             this.lblDataHora.Text = "label1";
             this.lblDataHora.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // laboratório03ToolStripMenuItem
+            // 
+            this.laboratório03ToolStripMenuItem.Name = "laboratório03ToolStripMenuItem";
+            this.laboratório03ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.laboratório03ToolStripMenuItem.Text = "Laboratório 03 - Verificar qual o maior número entre três números";
+            this.laboratório03ToolStripMenuItem.Click += new System.EventHandler(this.laboratório03ToolStripMenuItem_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -361,7 +361,6 @@
         private System.Windows.Forms.ToolStripDropDownButton tscExercicios;
         private System.Windows.Forms.ToolStripMenuItem laboratório01ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem laboratório02ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laboratório03ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem laboratório04ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem laboratório05ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem laboratório06ToolStripMenuItem1;
@@ -375,5 +374,6 @@
         private System.Windows.Forms.ToolStripMenuItem coleçãoQueueToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastroDeAlunosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem coleçãoHashtableToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem laboratório03ToolStripMenuItem;
     }
 }

@@ -65,11 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enumeradores.cs" />
-    <Compile Include="frmCadastroAluno.cs">
+    <Compile Include="frmAluno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCadastroAluno.Designer.cs">
-      <DependentUpon>frmCadastroAluno.cs</DependentUpon>
+    <Compile Include="frmAluno.Designer.cs">
+      <DependentUpon>frmAluno.cs</DependentUpon>
     </Compile>
     <Compile Include="frmExtraJogadores.cs">
       <SubType>Form</SubType>
@@ -172,8 +172,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Veiculo.cs" />
-    <EmbeddedResource Include="frmCadastroAluno.resx">
-      <DependentUpon>frmCadastroAluno.cs</DependentUpon>
+    <EmbeddedResource Include="frmAluno.resx">
+      <DependentUpon>frmAluno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmExtraJogadores.resx">
       <DependentUpon>frmExtraJogadores.cs</DependentUpon>

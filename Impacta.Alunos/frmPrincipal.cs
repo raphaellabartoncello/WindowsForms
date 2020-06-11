@@ -174,7 +174,7 @@ namespace Impacta.Alunos
 
         private void cadastroDeAlunosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmCadastroAluno aluno = new frmCadastroAluno();
+            frmAluno aluno = new frmAluno();
 
             this.Hide();
 

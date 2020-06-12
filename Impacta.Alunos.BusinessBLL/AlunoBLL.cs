@@ -38,14 +38,27 @@ namespace Impacta.Alunos.BusinessBLL
             catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
             return retorno;
         }
 
         public bool ValidarDadosAlunos(AlunoMOD aluno)
         {
-            return aluno.Nome.ValidarVazio();
+            if (!aluno.Nome.ValidarNomeVazio())
+            {
+                throw new Exception("O campo Nome é obrigatório!");
+            }
+            else if (!aluno.Email.ValidarEmail())
+            {
+                throw new Exception("O campo Email é obrigatório!");
+            }
+            else if (!aluno.Cpf.ValidarCPF())
+            {
+                throw new Exception("O campo CPF é obrigatório!");
+            }
+
+            return true;
         }
     }
 }

@@ -36,10 +36,9 @@ namespace Impacta.Alunos.DLL
                 comandoSql.Connection = minhaConexaoDB.CriarConexao();
 
                 //QUERY
-                comandoSql.CommandText = @"INSERT INTO ALUNOS(NOME, EMAIL, TELEFONE, CPF, SEXO) VALUES " + "@Nome, @Email, @Telefone, @Cpf, @Sexo";
+                comandoSql.CommandText = @"INSERT INTO ALUNOS(NOME, EMAIL, TELEFONE, CPF, SEXO) VALUES (@Nome, @Email, @Telefone, @Cpf, @Sexo)";
 
                 //Trocar parametros pelos valores dos objetos
-                SqlParameter param = new SqlParameter();
 
                 comandoSql.Parameters.AddWithValue("@Nome", alunoMOD.Nome);
                 comandoSql.Parameters.AddWithValue("@Email", alunoMOD.Email);

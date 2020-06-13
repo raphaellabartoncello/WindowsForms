@@ -20,24 +20,6 @@ namespace Impacta.Alunos
             InitializeComponent();
         }
 
-        private void tsbInicio_Click(object sender, EventArgs e)
-        {
-            frmPrincipal principal = new frmPrincipal();
-
-            this.Hide();
-
-            principal.Show();
-        }
-
-        private void tsbSair_Click(object sender, EventArgs e)
-        {
-            frmLogin login = new frmLogin();
-
-            this.Hide();
-
-            login.Show();
-        }
-
         private void btnSalvar_Click(object sender, EventArgs e)
         {
             //Definir objeto do tipo MODELO
@@ -53,12 +35,25 @@ namespace Impacta.Alunos
                 //Instanciar aluno MODEL        
                 aluno = new AlunoMOD();
 
-                aluno.Nome = txtNomeAluno.Text;
-                aluno.Cpf = txtCpf.Text;
+                aluno.Nome = txtNome.Text;
+                aluno.Cpf = txtCpf.Text.RemoverMascara();
                 aluno.Email = txtEmail.Text;
-                aluno.Telefone = txtTelefone.Text;
+                aluno.Telefone = txtTelefone.Text.RemoverMascara();
+                aluno.Sexo = 'M';
 
-                alunoBus.CadastrarAluno(aluno);
+                if (alunoBus.CadastrarAluno(aluno))
+                {
+                    this.LimparTela();
+
+                    MessageBox.Show("Impacta Alunos", "Aluno cadastrado com sucesso!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+
+                else
+                {
+                    MessageBox.Show("Impacta Alunos", "Problema ao cadastrar o aluno.", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
 
             }
             catch (Exception ex)
@@ -66,13 +61,13 @@ namespace Impacta.Alunos
 
                 if (ex.Message.Contains("Nome"))
                 {
-                    errorProvider1.SetError(txtNomeAluno, ex.Message);
+                    errorProvider1.SetError(txtNome, ex.Message);
                 }
                 else if (ex.Message.Contains("Email"))
                 {
                     errorProvider1.SetError(txtEmail, ex.Message);
                 }
-                else if (ex.Message.Contains("Cpf"))
+                else if (ex.Message.Contains("CPF"))
                 {
                     errorProvider1.SetError(txtCpf, ex.Message);
                 }
@@ -86,6 +81,13 @@ namespace Impacta.Alunos
                     MessageBox.Show("Ocorreu uma falha, por favor informar o administrador do sistema: \n" + ex.StackTrace);
                 }
             }
+
+        }
+
+        private void txtNome_TextChanged(object sender, EventArgs e)
+        {
+            //Remover o blink do ERROR PROVIDER
+            errorProvider1.SetError(txtNome, string.Empty);
         }
     }
 }

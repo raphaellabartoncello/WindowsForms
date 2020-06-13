@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Impacta.Alunos.BusinessBLL
 {
@@ -12,13 +13,13 @@ namespace Impacta.Alunos.BusinessBLL
         /// <summary>
         /// Método para validar se o campo texto está vazio
         /// </summary>
-        /// <param name="txt"></param>
+        /// <param name="texto"></param>
         /// <returns>Texto já validado</returns>
-        public static bool ValidarNomeVazio(this string txt)
+        public static bool ValidarNomeVazio(this string texto)
         {
-            if (string.IsNullOrWhiteSpace(txt))
+            if (string.IsNullOrWhiteSpace(texto))
             {
-                throw new Exception("Os campos obrigatórios devem ser preenchidos");
+                return false;
             }
             return true;
         }
@@ -30,25 +31,23 @@ namespace Impacta.Alunos.BusinessBLL
             return isEmail;
         }
 
-        public static bool RemoverMascara(this String textoComMascara)
+        public static string RemoverMascara(this String textoComMascara)
         {
-            bool retorno = false;
-
             var txt = textoComMascara
-                .Replace("(", "")
-                .Replace(")", "")
-                .Replace("-", "")
-                .Replace(".", "")
-                .Replace(",", "")
-                .Replace(" ", "")
-                .Trim();
+             .Replace("(", "")
+             .Replace(")", "")
+             .Replace("-", "")
+             .Replace(".", "")
+             .Replace(",", "")
+             .Replace(" ", "")
+             .Trim();
 
             if (String.IsNullOrWhiteSpace(txt))
             {
-                return retorno; ;
+                throw new Exception("Impossível remover a máscara do campo informado");
             }
 
-            return !retorno;
+            return txt;
         }
         public static bool ValidarCPF(this String texto)
         {
@@ -136,6 +135,36 @@ namespace Impacta.Alunos.BusinessBLL
 
             //Mensagem exibida caso CPF seja válido
             return true;
+        }
+
+        public static void LimparTela(this Form formulario)
+        {
+            foreach (Control ctl in formulario.Controls)
+            {
+                //A IS realiza o UNBOXING de forma amigável (UNBOXING - Compara se o objeto que está dentro de alguma coleção é do tipo que quero comparar)
+                if (ctl is TextBox)
+                {
+                    ctl.Text = string.Empty;
+
+                }
+
+                else if (ctl is ComboBox)
+                {
+
+                    (ctl as ComboBox).SelectedIndex = -1;
+
+                }
+
+                else if (ctl is MaskedTextBox)
+                {
+                    ctl.Text = string.Empty;
+                }
+
+                else if (ctl is RadioButton)
+                {
+                    ctl.Enabled = false;
+                }
+            }
         }
     }
 }

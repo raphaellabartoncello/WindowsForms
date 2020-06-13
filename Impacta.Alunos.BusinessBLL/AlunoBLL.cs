@@ -23,7 +23,6 @@ namespace Impacta.Alunos.BusinessBLL
             //Validar qualquer regra de negócio nesta camada (Ex. CPF, campos obrigatórios)
             try
             {
-
                 if (ValidarDadosAlunos(alunoMOD))
                 {
                     //Se os dados forem validados com sucesso - Criar estância da camada BLL
@@ -53,7 +52,8 @@ namespace Impacta.Alunos.BusinessBLL
             {
                 throw new Exception("O campo Email é obrigatório!");
             }
-            else if (!aluno.Cpf.ValidarCPF())
+            //O método de extensão tem execução da esquerda para direita
+            else if (!aluno.Cpf.RemoverMascara().ValidarCPF())
             {
                 throw new Exception("O campo CPF é obrigatório!");
             }
